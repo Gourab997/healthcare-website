@@ -1,0 +1,17 @@
+.details {
+  background-color: rgba(255, 228, 196, 0.781);
+}
+.textColor {
+  color: rgb(37, 57, 167);
+}
+
+@media only screen and (max-width: 688px) {
+  .textColor {
+    font-size: 12px;
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .textColor {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Dr Dilruba",
+    "degree": "MBBS,FCPS",
+    "age": 52,
+    "dept": "Ent",
+    "experience": " 12 years",
+    "image": "https://thumbs.dreamstime.com/b/doctor-holding-digital-tablet-meeting-room-portrait-beautiful-mature-woman-looking-camera-confident-female-using-164999229.jpg",
+    "fee": 1000
+  },
+  {
+    "id": 2,
+    "name": "Dr Forshed",
+    "degree": "MBBS",
+    "dept": "Child",
+    "age": 32,
+    "experience": "5 years",
+    "image": "https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg",
+    "fee": 2000
+  },
+
+  {
+    "id": 3,
+    "name": "Dr Ratna",
+    "degree": "MBBS,FCPS",
+    "dept": "Heart",
+    "age": 22,
+    "experience": " 2 years",
+    "image": "https://patients.smarterhealth.sg/wp-content/uploads/2019/11/Smarter-Health-General-Practitioner-or-Specialist-Doctor.jpg",
+    "fee": 3000
+  },
+  {
+    "id": 4,
+    "name": "Dr Morshen",
+    "degree": "MD",
+    "dept": "Blood",
+    "age": 32,
+    "experience": "5 years",
+    "image": "https://i.ibb.co/xJpyLzN/unnamed.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 5,
+    "name": "Dr Kanta",
+    "degree": "MBBS,FCPS",
+    "dept": "Medicine",
+    "age": 25,
+    "experience": " 3 years",
+    "image": "https://i.ibb.co/LZxH9g8/Medical-concept-of-Indian-beautiful-female-doctor-in-white-coat-with-stethoscope-waist-up-Medical-st.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 6,
+    "name": "Dr Zahid",
+    "degree": "MBBS",
+    "dept": "Ear",
+    "age": 32,
+    "experience": "5 years",
+    "image": "https://thumbs.dreamstime.com/b/indian-male-doctor-clipboard-stethoscope-medicine-profession-healthcare-concept-smiling-white-coat-over-grey-138207484.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 7,
+    "name": "Dr Lipa",
+    "degree": "MBBS,FCPS",
+    "age": 25,
+    "dept": "Liver",
+    "experience": " 7 years",
+    "image": "https://thumbs.dreamstime.com/b/happy-indian-female-doctor-young-against-white-background-34806924.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 8,
+    "name": "Dr Habib",
+    "degree": "MBBS",
+    "age": 32,
+    "dept": "cancer",
+    "experience": "5 years",
+    "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2018-04/14/full/1523727102-4933.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 9,
+    "name": "Dr Nipa",
+    "degree": "MBBS,FCPS",
+    "age": 35,
+    "dept": "Sexual",
+    "experience": " 4 years",
+    "image": "https://www.healthcareitnews.com/sites/hitn/files/Doctor-Computer-HITN.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 10,
+    "name": "Dr labib",
+    "degree": "MBBS",
+    "dept": "Hair",
+    "age": 32,
+    "experience": "5 years",
+    "image": "https://doctoryouneed.org/wp-content/uploads/2020/06/1533798648sureshadvani.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 11,
+    "name": "Dr Juthi",
+    "degree": "MBBS,FCPS",
+    "dept": "Heart",
+    "age": 39,
+    "experience": " 4 years",
+    "image": "https://image1.masterfile.com/getImage/ODU3LTAzNTU0MjU4ZW4uMDAwMDAwMDA=AOxMpi/857-03554258en_Masterfile.jpg",
+    "fee": 2000
+  },
+  {
+    "id": 12,
+    "name": "Dr nahid",
+    "degree": "MBBS",
+    "age": 32,
+    "experience": "5 years",
+    "image": "http://www.kauveryhospital.com/doctorimage/recent/tennur/Dr-Arivarasan.jpg",
+    "fee": 2000
+  }
+]
