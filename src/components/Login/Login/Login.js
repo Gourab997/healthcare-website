@@ -1,9 +1,11 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { useHistory, useLocation } from "react-router";
 import useAuth from "../../../hooks/useAuth";
 import "./Login.css";
 const Login = () => {
   const {
+    
     signInUsingGoogle,
     handleRegistration,
     isLogin,
@@ -13,8 +15,20 @@ const Login = () => {
     toggleLogin,
     error,
   } = useAuth();
+
+  const location = useLocation();
+  const history = useHistory();
+  const redirect_uri = location.state?.form || "/home";
+
+  const handleGoogleLogin = () => {
+    signInUsingGoogle().then((result) => {
+      history.push(redirect_uri);
+    });
+  };
+
+
   return (
-    <div className='mb-5'>
+    <div className='mb-5 about'>
       <div className='container'>
         <form onSubmit={handleRegistration}>
           <div class='container'>
@@ -84,11 +98,12 @@ const Login = () => {
                     </div>
                     <Button
                       className='m-3 btn btn-danger'
-                      onClick={signInUsingGoogle}
+                      onClick={handleGoogleLogin}
                     >
                       <i class='fab fa-google'></i> Sign In With Google
                     </Button>
                   </div>
+               
                 </div>
               </div>
             </div>

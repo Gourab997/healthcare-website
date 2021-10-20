@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Home from "./components/Home/Home";
 import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
@@ -16,7 +15,7 @@ import Success from "./components/Success/Success";
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App about'>
       <AuthProvider>
         <BrowserRouter>
           <Header></Header>

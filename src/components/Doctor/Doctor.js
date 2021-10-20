@@ -6,7 +6,7 @@ const Doctor = ({ Doctor }) => {
   console.log(Doctor);
   const { name, degree, dept, age, experience, image, fee } = Doctor;
   return (
-    <div className='m-5'>
+    <div className='m-5 pb-5'>
       <div className='container mt-5'></div>
       <div className='cards card h-100'>
         <div className='cards-header card-header'>

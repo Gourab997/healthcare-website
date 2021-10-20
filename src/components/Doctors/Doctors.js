@@ -12,8 +12,8 @@ const Doctors = () => {
 
   return (
     <div>
-      <div className='d-flex align-content-center justify-content-center'>
-        <h1 className='m-5 p-5'>Doctor List</h1>
+      <div className='d-flex align-content-center justify-content-center doctor'>
+        <h1 className='m-5 p-5 text-white'>Doctor List</h1>
         <img className='w-50 imagedoc' src={doctorimg} alt='' />
       </div>
       <div className='container imagedoc  service-container'>

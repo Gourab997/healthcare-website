@@ -5,9 +5,9 @@ import doctor from "../../images/profile.svg";
 import "./About.css";
 const About = () => {
   return (
-    <div>
-      <div className='m-5'>
-        <h1 className='text-warning'>About us</h1>
+    <div className='about'>
+      <div className='p-5 back'>
+        <h1 className=' text-secondary'>About us</h1>
         <img className='w-50' src={about} alt='' />
       </div>
 

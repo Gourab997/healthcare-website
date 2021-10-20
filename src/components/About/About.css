@@ -1,3 +1,10 @@
+.back {
+  background-color: #ffc34b;
+}
+.about {
+  background-color: #f2e7f8;
+}
+
 /* Make it responsive */
 @media only screen and (max-width: 688px) {
   .images {

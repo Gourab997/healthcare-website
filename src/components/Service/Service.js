@@ -5,12 +5,13 @@ import "./Service.css";
 const Service = ({ Service }) => {
   const { service_name, image, short_details, id } = Service;
   return (
-    <div>
+    <div className='about'>
+      {" "}
       <div id='cards_landscape_wrap-2'>
-        <div className='container'>
-          <div className='row'>
-            <div className=''>
-              <div className='card-flyer'>
+        <div class='container'>
+          <div class='row'>
+            <div class=''>
+              <div class='card-flyer'>
                 <div className='text-box'>
                   <div className='image-box'>
                     <img src={image} alt='' />
