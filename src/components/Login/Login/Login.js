@@ -5,7 +5,6 @@ import useAuth from "../../../hooks/useAuth";
 import "./Login.css";
 const Login = () => {
   const {
-    
     signInUsingGoogle,
     handleRegistration,
     isLogin,
@@ -18,14 +17,13 @@ const Login = () => {
 
   const location = useLocation();
   const history = useHistory();
-  const redirect_uri = location.state?.form || "/home";
+  const redirect_uri = location.state?.from || "/home";
 
   const handleGoogleLogin = () => {
     signInUsingGoogle().then((result) => {
       history.push(redirect_uri);
     });
   };
-
 
   return (
     <div className='mb-5 about'>
@@ -103,7 +101,6 @@ const Login = () => {
                       <i class='fab fa-google'></i> Sign In With Google
                     </Button>
                   </div>
-               
                 </div>
               </div>
             </div>
