@@ -15,7 +15,7 @@ const Header = () => {
         expand='lg'
       >
         <Container>
-          <Navbar.Brand className='text-warning' href='#home'>
+          <Navbar.Brand className='text-warning' as={HashLink} to='/'>
             <i class='fas fa-heartbeat'></i> Home
           </Navbar.Brand>
           <Navbar.Toggle />
